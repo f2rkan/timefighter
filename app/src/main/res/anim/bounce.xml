@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:fillAfter="true"
+    android:interpolator="@android:anim/bounce_interpolator">
+    <scale
+        android:duration="2000"
+        android:fromXScale="2.0"
+        android:fromYScale="2.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+</set>
+    <!--
+    fillAfter = "true" deme sebebimiz: Animasyonu tutacak ayar bildirilir ve fillAfter true olarak ayarlanır.
+    fillAfter öğesinin true olarak ayarlanması, animasyonun tamamlandıktan sonra Görünümü,
+     orijinal konumuna sıfırlamaması anlamına gelir.
+     Bunun yerine, Animasyon sona erdiğinde Görünüm olduğu yerde kalır.
+    -->
